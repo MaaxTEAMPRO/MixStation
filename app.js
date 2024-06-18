@@ -31,7 +31,7 @@ async function fetchStations() {
         { name: '181 FM - Lite 90s', url: 'http://listen.livestreamingservice.com/181-lite90s_128k.mp3', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
         { name: '181 FM - Classic Hits 181', url: 'http://listen.livestreamingservice.com/181-greatoldies_128k.mp3', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
         { name: '181 FM - Goodtime 60s', url: 'http://listen.livestreamingservice.com/181-goodtime_128k.mp3', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
-        { name: '181 FM - Super 70s', url: 'http://listen.livestreamingservice.com/181-70s_128k.mp3', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
+        { name: '181 FM - Super 70s', url: 'http://listen.livestreamingservice.com:8066', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
         { name: '181 FM - Awesome 80s', url: 'http://listen.livestreamingservice.com/181-awesome80s_128k.mp3', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
 
       
