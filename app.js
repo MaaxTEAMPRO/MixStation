@@ -23,9 +23,10 @@ async function fetchStations() {
         { name: 'Jovem Pan Classic', url: 'https://ice.fabricahost.com.br/classicpan', icon: 'https://s.jpimg.com.br/wp-content/themes/jovempan/assets/src/images/classic-pan/capa-classicpan-1024x1024.png' },
         { name: 'Jovem Pan', url: 'https://ice.fabricahost.com.br/jovempansp1009', icon: 'https://s.jpimg.com.br/wp-content/themes/jovempan/assets/build/images/logos-player/jpfm.jpg?v2' },
         { name: 'Radio Clube de Canoinhas', url: 'https://cast.youngtech.radio.br/radio/8370/radio', icon: 'https://img.radios.com.br/radio/lg/radio11834_1525086515.jpg' },
-        
+
         { name: 'Band FM Floripa', url: 'https://cast2.youngtech.radio.br/radio/8010/radio', icon: 'https://pubimg.band.uol.com.br/Files/bandfm-live.png' },
-  
+        { name: 'Mix FM São Paulo', url: '        https://playerservices.streamtheworld.com/api/livestream-redirect/MIXFM_SAOPAULOAAC.aac', icon: 'https://img.radios.com.br/radio/lg/radio13955_1532353280.png' },
+
         { name: 'Italia anni 60', url: 'https://str01.fluidstream.net/anni60.mp3', icon: 'https://www.radioitaliaannisessanta.it/images/ria60/za_network/inserzioni/radioitaliaanni60.jpg' },
         { name: '100.9 Classic Country', url: 'https://live.amperwave.net/direct/wboc-waaifmmp3-ibc2?_=84', icon: 'https://mm.aiircdn.com/609/5cd2c3c93418e.png' },
         { name: '1FM - Country One', url: 'https://strm112.1.fm/country_mobile_mp3', icon: 'https://static.tuneyou.com/images/logos/500_500/11/15511/1.FMDeepHouse_8.png' },
