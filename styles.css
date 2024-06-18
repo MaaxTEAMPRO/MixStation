@@ -13,7 +13,7 @@ body {
 
 header {
     background: linear-gradient(90deg, #a722ff, #003cff);
-    padding: 1em;
+    padding: 0.4em;
     text-align: center;
     border-bottom: 1px solid #333;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
