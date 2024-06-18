@@ -23,7 +23,7 @@ async function fetchStations() {
         { name: 'Jovem Pan', url: 'https://ice.fabricahost.com.br/jovempansp1009', icon: 'https://s.jpimg.com.br/wp-content/themes/jovempan/assets/build/images/logos-player/jpfm.jpg?v2' },
         { name: 'Radio Clube de Canoinhas', url: 'https://cast.youngtech.radio.br/radio/8370/radio', icon: 'https://img.radios.com.br/radio/lg/radio11834_1525086515.jpg' },
         
-        { name: 'Band FM', url: 'https://playerservices.streamtheworld.com/api/livestream-redirect/BANDFM_SPAAC', icon: 'https://pubimg.band.uol.com.br/Files/bandfm-live.png' },
+        { name: 'Band FM Floripa', url: 'https://cast2.youngtech.radio.br/radio/8010/radio', icon: 'https://pubimg.band.uol.com.br/Files/bandfm-live.png' },
   
         { name: 'Italia anni 60', url: 'https://str01.fluidstream.net/anni60.mp3', icon: 'https://www.radioitaliaannisessanta.it/images/ria60/za_network/inserzioni/radioitaliaanni60.jpg' },
         { name: 'Antenne Bayern TOP 40', url: 'http://mp3channels.webradio.antenne.de/top-40', icon: 'https://www.antenne.de/media/cache/3/version/7264/streamlogo_top_40_aby-v1.jpg/bfef8f7751448ff6550b339ef8bb420c.webp' },
