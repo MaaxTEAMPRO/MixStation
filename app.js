@@ -28,6 +28,7 @@ async function fetchStations() {
   
         { name: 'Italia anni 60', url: 'https://str01.fluidstream.net/anni60.mp3', icon: 'https://www.radioitaliaannisessanta.it/images/ria60/za_network/inserzioni/radioitaliaanni60.jpg' },
         { name: '100.9 Classic Country', url: 'https://live.amperwave.net/direct/wboc-waaifmmp3-ibc2?_=84', icon: 'https://mm.aiircdn.com/609/5cd2c3c93418e.png' },
+        { name: '1FM - Country One', url: 'https://strm112.1.fm/country_mobile_mp3', icon: 'https://static.tuneyou.com/images/logos/500_500/11/15511/1.FMDeepHouse_8.png' },
         { name: 'RFM - 80s', url: 'https://stream.rfm.fr/rfm-wr7.aac', icon: 'https://resize2-rfm.lanmedia.fr/r/100,100,forcex/crop/100,100,center-middle,forcex,ffffff/img/var/rfm/storage/images/programmes/les-webradios/rfm-80-s/3281-3-fre-FR/RFM-80-s.png' },
         { name: 'RFM - Slow', url: 'https://rfm.lmn.fm/rfm-wr13.aac', icon: 'https://resize-rfm.lanmedia.fr/r/67,,forcex/crop/67,67,center-middle,forcex,ffffff/img/var/rfm/storage/images/programmes/les-webradios/rfm-slow/54053-1-fre-FR/RFM-Slow.png' },
         { name: 'RFM Lounge', url: 'http://stream.rfm.fr/rfm-wr6.mp3', icon: 'https://resize1-rfm.lanmedia.fr/r/67,,forcex/crop/67,67,center-middle,forcex,ffffff/img/var/rfm/storage/images/programmes/les-webradios/rfm-lounge/19264-14-fre-FR/RFM-Lounge.png' },
