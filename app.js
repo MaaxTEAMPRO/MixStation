@@ -31,7 +31,7 @@ async function fetchStations() {
         { name: 'RFM - 80s', url: 'https://stream.rfm.fr/rfm-wr7.aac', icon: 'https://resize2-rfm.lanmedia.fr/r/100,100,forcex/crop/100,100,center-middle,forcex,ffffff/img/var/rfm/storage/images/programmes/les-webradios/rfm-80-s/3281-3-fre-FR/RFM-80-s.png' },
         { name: 'RFM - Slow', url: 'https://rfm.lmn.fm/rfm-wr13.aac', icon: 'https://resize-rfm.lanmedia.fr/r/67,,forcex/crop/67,67,center-middle,forcex,ffffff/img/var/rfm/storage/images/programmes/les-webradios/rfm-slow/54053-1-fre-FR/RFM-Slow.png' },
         { name: 'RFM Lounge', url: 'http://stream.rfm.fr/rfm-wr6.mp3', icon: 'https://resize1-rfm.lanmedia.fr/r/67,,forcex/crop/67,67,center-middle,forcex,ffffff/img/var/rfm/storage/images/programmes/les-webradios/rfm-lounge/19264-14-fre-FR/RFM-Lounge.png' },
-        { name: '181 FM - Awesome 80s', url: 'http://listen.livestreamingservice.com/181-awesome80s_128k.mp3', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
+        { name: '181 FM - Awesome 80s', url: 'http://relay.181.fm:8018', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
 
         { name: 'AS FM', url: 'https://mastermedia.shoutca.st/proxy/radioasfm?mp=/stream', icon: 'https://www.radio-uzivo.com/images/radio-stanica/as-fm_200_1.jpg' },
 
