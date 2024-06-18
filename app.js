@@ -6,6 +6,7 @@ async function fetchStations() {
         { name: 'Hunter FM - 80s Retro', url: 'https://live.hunter.fm/80s_high', icon: 'https://cdn.hunter.fm/image/thumb/station/80s-third/400x400ht.jpg' },
         { name: 'Hunter FM Pop', url: 'https://live.hunter.fm/pop_high', icon: 'https://cdn.hunter.fm/image/thumb/station/pop-third/400x400ht.jpg' },
         { name: 'Hunter - Moda Sertaneja', url: 'https://live.hunter.fm/modasertaneja_high', icon: 'https://cdn.hunter.fm/image/thumb/station/modasertaneja-third/400x400ht.jpg' },
+        { name: 'Hunter FM - Sertanejo', url: 'https://live.hunter.fm/sertanejo_high', icon: 'https://cdn.hunter.fm/image/thumb/station/sertanejo-third/400x400ht.jpg' },
         { name: 'Antenne Bayern - 80er Kulthits', url: 'http://stream.antenne.de/80er-kulthits/stream/aacp', icon: 'https://www.antenne.de/media/cache/3/version/7/streamlogo_80er_aby-v1.jpg/f8dc8c8fa5c1686cebb0714f1f3993d1.webp' },
         { name: 'Antenne Bayern - 70er Rock', url: 'https://s8-webradio.antenne.de/antenne-bayern-70er-rock/stream/aacp', icon: 'https://www.antenne.de/media/cache/3/version/13897/streamlogo_70er_rock_aby_neu_2000x2000-v1.jpg/c3cea2d625af4aa2d72ceea7f5fb78e8.webp' },
         { name: 'Antenne Bayern - 70er Hits', url: 'http://stream.antenne.de/70er-hits/stream/aacp', icon: 'https://www.antenne.de/media/cache/3/version/7306/streamlogo_70er_aby-v1.jpg/16418bb5de8f35b53118916fbde10963.webp' },
@@ -27,7 +28,6 @@ async function fetchStations() {
   
         { name: 'Italia anni 60', url: 'https://str01.fluidstream.net/anni60.mp3', icon: 'https://www.radioitaliaannisessanta.it/images/ria60/za_network/inserzioni/radioitaliaanni60.jpg' },
         { name: '100.9 Classic Country', url: 'https://live.amperwave.net/direct/wboc-waaifmmp3-ibc2?_=84', icon: 'https://mm.aiircdn.com/609/5cd2c3c93418e.png' },
-        { name: 'scloud test', url: 'https://soundcloud.com/rockstargames/gtav-radio-preview-non-stop?utm_source=clipboard&utm_campaign=wtshare&utm_medium=widget&utm_content=https%253A%252F%252Fsoundcloud.com%252Frockstargames%252Fgtav-radio-preview-non-stop', icon: 'https://' },
         { name: '181 FM - Classic Hits 181', url: 'http://listen.livestreamingservice.com/181-greatoldies_128k.mp3', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
         { name: '181 FM - Goodtime 60s', url: 'http://listen.livestreamingservice.com/181-goodtime_128k.mp3', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
         { name: '181 FM - Super 70s', url: 'http://listen.livestreamingservice.com:8066', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
