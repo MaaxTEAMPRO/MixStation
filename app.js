@@ -28,15 +28,16 @@ async function fetchStations() {
   
         { name: 'Italia anni 60', url: 'https://str01.fluidstream.net/anni60.mp3', icon: 'https://www.radioitaliaannisessanta.it/images/ria60/za_network/inserzioni/radioitaliaanni60.jpg' },
         { name: '100.9 Classic Country', url: 'https://live.amperwave.net/direct/wboc-waaifmmp3-ibc2?_=84', icon: 'https://mm.aiircdn.com/609/5cd2c3c93418e.png' },
-        { name: '181 FM - Classic Hits 181', url: 'http://listen.livestreamingservice.com/181-greatoldies_128k.mp3', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
-        { name: '181 FM - Goodtime 60s', url: 'http://listen.livestreamingservice.com/181-goodtime_128k.mp3', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
-        { name: '181 FM - Super 70s', url: 'http://listen.livestreamingservice.com:8066', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
+        { name: 'RFM - 80s', url: 'https://stream.rfm.fr/rfm-wr7.aac', icon: 'https://resize2-rfm.lanmedia.fr/r/100,100,forcex/crop/100,100,center-middle,forcex,ffffff/img/var/rfm/storage/images/programmes/les-webradios/rfm-80-s/3281-3-fre-FR/RFM-80-s.png' },
+        { name: 'RFM - Slow', url: 'https://rfm.lmn.fm/rfm-wr13.aac', icon: 'https://resize-rfm.lanmedia.fr/r/67,,forcex/crop/67,67,center-middle,forcex,ffffff/img/var/rfm/storage/images/programmes/les-webradios/rfm-slow/54053-1-fre-FR/RFM-Slow.png' },
+        { name: 'RFM Lounge', url: 'http://stream.rfm.fr/rfm-wr6.mp3', icon: 'https://resize1-rfm.lanmedia.fr/r/67,,forcex/crop/67,67,center-middle,forcex,ffffff/img/var/rfm/storage/images/programmes/les-webradios/rfm-lounge/19264-14-fre-FR/RFM-Lounge.png' },
         { name: '181 FM - Awesome 80s', url: 'http://listen.livestreamingservice.com/181-awesome80s_128k.mp3', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
 
-      
+        { name: 'AS FM', url: 'https://mastermedia.shoutca.st/proxy/radioasfm?mp=/stream', icon: 'https://www.radio-uzivo.com/images/radio-stanica/as-fm_200_1.jpg' },
+
         { name: 'Antenne Bayern TOP 40', url: 'http://mp3channels.webradio.antenne.de/top-40', icon: 'https://www.antenne.de/media/cache/3/version/7264/streamlogo_top_40_aby-v1.jpg/bfef8f7751448ff6550b339ef8bb420c.webp' },
         { name: 'Antenne Bayern 2000 Hits', url: 'https://s2-webradio.antenne.de/2000er-hits', icon: 'https://www.antenne.de/media/cache/3/version/7320/streamlogo_2000er_aby-v1.jpg/eb8c905312265f37f465cb9d341a68f3.webp' },
-        { name: 'RFM Lounge', url: 'http://stream.rfm.fr/rfm-wr6.mp3', icon: 'https://resize1-rfm.lanmedia.fr/r/67,,forcex/crop/67,67,center-middle,forcex,ffffff/img/var/rfm/storage/images/programmes/les-webradios/rfm-lounge/19264-14-fre-FR/RFM-Lounge.png' },
+    
         { name: 'Antenne Bayern - Happy Hits', url: 'https://s6-webradio.antenne.de/happy-hits/stream/mp3', icon: 'https://www.antenne.de/media/cache/3/version/7290/streamlogo_happy_hits_aby-v1.jpg/61e889f16860424c0b621f6a01163367.webp' },
         { name: 'Antenne Bayern - Party Hits', url: 'https://s7-webradio.antenne.de/sommer-hits/stream/mp3', icon: 'https://www.antenne.de/media/cache/3/version/7352/streamlogo_party_hits_aby-v1.jpg/8c39bbc032baf2b3ff5bb2c74a946b81.webp' },
         { name: 'Antenne Bayern - Summer Hits', url: 'https://s7-webradio.antenne.de/sommer-hits/stream/mp3', icon: 'https://www.antenne.de/media/cache/3/version/7392/streamlogo_sommer_hits_aby-v1.jpg/fe42c77ce70903b129f9ddf635c50625.webp' },
