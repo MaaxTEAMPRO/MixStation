@@ -27,8 +27,8 @@ async function fetchStations() {
   
         { name: 'Italia anni 60', url: 'https://str01.fluidstream.net/anni60.mp3', icon: 'https://www.radioitaliaannisessanta.it/images/ria60/za_network/inserzioni/radioitaliaanni60.jpg' },
         { name: '181 FM - Country 80s', url: 'http://listen.livestreamingservice.com/181-80scountry_128k.mp3', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
-        { name: '181 FM - Country 90s', url: 'http://listen.livestreamingservice.com/181-90scountry_128k.mp3', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
-        { name: '181 FM - Lite 90s', url: 'http://listen.livestreamingservice.com/181-lite90s_128k.mp3', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
+        { name: '181 FM - Country 90s', url: 'http://listen.livestreamingservice.com/181-90scountry_128k.mp3', icon: 'https://' },
+        { name: 'Antenne Bayern - Happy Hits', url: 'https://s6-webradio.antenne.de/happy-hits/stream/mp3', icon: 'https://www.antenne.de/media/cache/3/version/7290/streamlogo_happy_hits_aby-v1.jpg/61e889f16860424c0b621f6a01163367.webp' },
         { name: '181 FM - Classic Hits 181', url: 'http://listen.livestreamingservice.com/181-greatoldies_128k.mp3', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
         { name: '181 FM - Goodtime 60s', url: 'http://listen.livestreamingservice.com/181-goodtime_128k.mp3', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
         { name: '181 FM - Super 70s', url: 'http://listen.livestreamingservice.com:8066', icon: 'https://m.media-amazon.com/images/I/518USI0buaL.png' },
