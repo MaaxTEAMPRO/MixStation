@@ -182,6 +182,14 @@ document.getElementById('search-bar').addEventListener('input', (event) => {
     });
 });
 
+// Função para rolar suavemente para o topo da página
+document.getElementById('page-header').addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
 document.addEventListener('DOMContentLoaded', async () => {
     const stations = await fetchStations();
     loadStations(stations);
