@@ -37,13 +37,13 @@ async function fetchStations() {
 
         { name: 'AS FM', url: 'https://mastermedia.shoutca.st/proxy/radioasfm?mp=/stream', icon: 'https://www.radio-uzivo.com/images/radio-stanica/as-fm_200_1.jpg' },
 
-        { name: 'Antenne Bayern TOP 40', url: 'http://mp3channels.webradio.antenne.de/top-40', icon: 'https://www.antenne.de/media/cache/3/version/7264/streamlogo_top_40_aby-v1.jpg/bfef8f7751448ff6550b339ef8bb420c.webp' },
-        { name: 'Antenne Bayern 2000 Hits', url: 'https://s2-webradio.antenne.de/2000er-hits', icon: 'https://www.antenne.de/media/cache/3/version/7320/streamlogo_2000er_aby-v1.jpg/eb8c905312265f37f465cb9d341a68f3.webp' },
+        { name: 'Antenne Bayern - TOP 40', url: 'http://mp3channels.webradio.antenne.de/top-40', icon: 'https://www.antenne.de/media/cache/3/version/7264/streamlogo_top_40_aby-v1.jpg/bfef8f7751448ff6550b339ef8bb420c.webp' },
+        { name: 'Antenne Bayern - 2000 Hits', url: 'https://s2-webradio.antenne.de/2000er-hits', icon: 'https://www.antenne.de/media/cache/3/version/7320/streamlogo_2000er_aby-v1.jpg/eb8c905312265f37f465cb9d341a68f3.webp' },
     
         { name: 'Antenne Bayern - Happy Hits', url: 'https://s6-webradio.antenne.de/happy-hits/stream/mp3', icon: 'https://www.antenne.de/media/cache/3/version/7290/streamlogo_happy_hits_aby-v1.jpg/61e889f16860424c0b621f6a01163367.webp' },
         { name: 'Antenne Bayern - Party Hits', url: 'https://s7-webradio.antenne.de/sommer-hits/stream/mp3', icon: 'https://www.antenne.de/media/cache/3/version/7352/streamlogo_party_hits_aby-v1.jpg/8c39bbc032baf2b3ff5bb2c74a946b81.webp' },
         { name: 'Antenne Bayern - Summer Hits', url: 'https://s7-webradio.antenne.de/sommer-hits/stream/mp3', icon: 'https://www.antenne.de/media/cache/3/version/7392/streamlogo_sommer_hits_aby-v1.jpg/fe42c77ce70903b129f9ddf635c50625.webp' },
-        { name: 'Antenne Bayern HitMix', url: 'http://mp3channels.webradio.antenne.de/hitmix', icon: 'https://www.antenne.de/media/cache/3/version/6/streamlogo_in_the_mix_aby-v1.jpg/f5c30ea9c1bf5214dbc0695f9bca4cac.webp' }
+        { name: 'Antenne Bayern - In The Mix', url: 'http://mp3channels.webradio.antenne.de/hitmix', icon: 'https://www.antenne.de/media/cache/3/version/6/streamlogo_in_the_mix_aby-v1.jpg/f5c30ea9c1bf5214dbc0695f9bca4cac.webp' }
     ];
     return stations;
 }
