@@ -1,4 +1,4 @@
-/* styles.css */
+/* Estilos gerais */
 body {
     background-color: #121212;
     color: #ffffff;
@@ -22,10 +22,10 @@ header {
     top: 0;
 }
 
-h1 {
+h2 {
     margin: 0;
     color: #ffffff;
-    font-size: 2.5em;
+    font-size: 38px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -58,18 +58,15 @@ button:hover {
     transform: scale(1.05);
 }
 
-#stations, #favorites-list {
+#stations {
     list-style: none;
     padding: 0;
-}
-
-.station-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1em;
 }
 
-#stations li, #favorites-list li {
+#stations li {
     padding: 1em;
     border: 1px solid #333;
     border-radius: 10px;
@@ -83,21 +80,22 @@ button:hover {
     background-color: #1f1f1f;
 }
 
-#stations li:hover, #favorites-list li:hover {
+#stations li:hover {
     background-color: #333;
     transform: scale(1.05);
 }
 
-.station-list li .station-info {
+.station-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.5em;
+    font-size: 16px; /* Aumenta o tamanho da fonte */
 }
 
-.station-list li .station-info img {
-    width: 64px;
-    height: 64px;
+.station-info img {
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 }
 
@@ -159,7 +157,7 @@ footer p {
     font-size: 0.875em;
 }
 
-/* Modal Styles */
+/* Estilos do Modal */
 .modal {
     display: none;
     position: fixed;

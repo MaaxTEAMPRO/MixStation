@@ -22,35 +22,18 @@
                     <button id="play-pause" class="player-button"><i class="fas fa-play"></i></button>
                     <button id="stop" class="player-button"><i class="fas fa-stop"></i></button>
                 </div>
-            </div>            
+            </div>
         </section>
         <section id="radio-list">
-            <h2>Rádios Disponíveis</h2>
+            <h3>Rádios Disponíveis</h3>
             <input type="text" id="search-bar" placeholder="Pesquisar rádios">
             <ul id="stations" class="station-list"></ul>
-        </section>
-        <section id="add-station">
-            <h2>Adicionar Rádio</h2>
-            <button id="open-modal-button" class="add-button">Adicionar Rádio</button>
-        </section>
-        <section id="favorites">
-            <h2>Adicionados</h2>
-            <ul id="favorites-list" class="station-list"></ul>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 MixStation. Todos os direitos reservados.</p>
     </footer>
-
-    <!-- Modal for Adding Station -->
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close-button">&times;</span>
-            <h2>Adicionar Nova Rádio</h2>
-            <input type="text" id="station-url" placeholder="URL da Rádio">
-            <button id="add-station-button" class="add-button">Adicionar</button>
-        </div>
-    </div>
+    <script src="stations.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
