@@ -204,3 +204,34 @@ footer p {
     from {opacity: 0;}
     to {opacity: 1;}
 }
+
+
+#control-menu {
+    position: fixed;
+    bottom: 10px; /* Reduz a distância da parte inferior */
+    right: 10px; /* Reduz a distância da direita */
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 5px; /* Reduz o raio da borda */
+    padding: 5px; /* Reduz o padding */
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Reduz o espaçamento entre os botões */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Reduz a sombra */
+    transform: scale(0.8); /* Reduz o tamanho geral do contêiner */
+}
+
+.control-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2em; /* Reduz o tamanho da fonte */
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.control-button:hover {
+    color: #ff5722;
+    transform: scale(1.1); /* Reduz a escala no hover */
+}
+

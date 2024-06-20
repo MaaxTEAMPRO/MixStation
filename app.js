@@ -80,3 +80,36 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('search-bar').addEventListener('input', searchStations);
     setupPlayerControls();
 });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const player = document.getElementById('player');
+    const volumeUpButton = document.getElementById('volume-up');
+    const volumeDownButton = document.getElementById('volume-down');
+    const pauseButton = document.getElementById('pause');
+    const stopButton = document.getElementById('stop');
+
+    volumeUpButton.addEventListener('click', () => {
+        player.volume = Math.min(player.volume + 0.1, 1);
+    });
+
+    volumeDownButton.addEventListener('click', () => {
+        player.volume = Math.max(player.volume - 0.1, 0);
+    });
+
+    pauseButton.addEventListener('click', () => {
+        if (player.paused) {
+            player.play();
+            pauseButton.innerHTML = '<i class="fas fa-pause"></i>';
+        } else {
+            player.pause();
+            pauseButton.innerHTML = '<i class="fas fa-play"></i>';
+        }
+    });
+
+    stopButton.addEventListener('click', () => {
+        player.pause();
+        player.currentTime = 0;
+        pauseButton.innerHTML = '<i class="fas fa-play"></i>';
+    });
+});
