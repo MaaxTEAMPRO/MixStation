@@ -25,7 +25,7 @@ header {
 h2 {
     margin: 0;
     color: #ffffff;
-    font-size: 38px;
+    font-size: 20px; /* Aumenta o tamanho da fonte do titulo */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -90,7 +90,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     gap: 0.5em;
-    font-size: 16px; /* Aumenta o tamanho da fonte */
+    font-size: 20px; /* Aumenta o tamanho da fonte do nome da radio */
 }
 
 .station-info img {
