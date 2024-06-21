@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, #6a0dad, #9b30ff, #9370db, #ba55d3);
+    background: linear-gradient(90deg, #0342b8, #0385b8, #8d12ff, #ff00aa, #ba55d3);
     background-size: 300% 300%;
     animation: gradientAnimation 20s ease infinite;
     padding: 0.4em;
