@@ -40,5 +40,10 @@ const stations = [
     { name: 'Antenne Bayern - Happy Hits', url: 'https://s6-webradio.antenne.de/happy-hits/stream/mp3', icon: 'https://www.antenne.de/media/cache/3/version/7290/streamlogo_happy_hits_aby-v1.jpg/61e889f16860424c0b621f6a01163367.webp' },
     { name: 'Antenne Bayern - Party Hits', url: 'https://s7-webradio.antenne.de/sommer-hits/stream/mp3', icon: 'https://www.antenne.de/media/cache/3/version/7352/streamlogo_party_hits_aby-v1.jpg/8c39bbc032baf2b3ff5bb2c74a946b81.webp' },
     { name: 'Antenne Bayern - Summer Hits', url: 'https://s7-webradio.antenne.de/sommer-hits/stream/mp3', icon: 'https://www.antenne.de/media/cache/3/version/7392/streamlogo_sommer_hits_aby-v1.jpg/fe42c77ce70903b129f9ddf635c50625.webp' },
-    { name: 'Antenne Bayern - In The Mix', url: 'http://mp3channels.webradio.antenne.de/hitmix', icon: 'https://www.antenne.de/media/cache/3/version/6/streamlogo_in_the_mix_aby-v1.jpg/f5c30ea9c1bf5214dbc0695f9bca4cac.webp' }
+    { name: 'Antenne Bayern - In The Mix', url: 'http://mp3channels.webradio.antenne.de/hitmix', icon: 'https://www.antenne.de/media/cache/3/version/6/streamlogo_in_the_mix_aby-v1.jpg/f5c30ea9c1bf5214dbc0695f9bca4cac.webp' },
+    { name: 'Ibiza - Global Radio', url: 'https://listenssl.ibizaglobalradio.com:8024/ibizaglobalradio.mp3', icon: 'https://i1.sndcdn.com/avatars-XAzhBFgew2ytmeyZ-CkDDPg-t500x500.jpg' },
+    { name: 'Ibiza - Global Classics', url: 'https://control.streaming-pro.com:8000/ibizaglobalclassics.mp3', icon: 'https://i1.sndcdn.com/avatars-Fh7RCyr9yeKYRfJC-k0LqPg-t1080x1080.jpg' },
+    { name: 'FG Radio - Remixes', url: 'https://stream.rcs.revma.com/w1psqtmd342vv', icon: 'https://upload.wikimedia.org/wikipedia/commons/2/27/FG_1400_%C3%97_1400.jpg' },
+    { name: 'FG Radio - Mix House', url: 'https://stream.rcs.revma.com/5kucq079n98uv', icon: 'https://yt3.googleusercontent.com/Y9gwp10yBGJ4DZd0sCb8NAQJTU404d297vRmC7uIsiQWxHDCKtmrqeWzGAnTmhMmTbszLs79x2E=s900-c-k-c0x00ffffff-no-rj' },
+    { name: 'FG Radio - Tech House', url: 'https://stream.rcs.revma.com/007e1v9f772vv', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbuOfzVXpFD2ZcZf6FYSSe3igf8nrdRd4E0y73AtIFcdU3tqLFswPw26CtuGofTwJ6AlA&usqp=CAU' }
 ];
