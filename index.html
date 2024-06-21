@@ -15,9 +15,6 @@
         <section id="radio-player">
             <div id="player-container">
                 <audio id="player" controls></audio>
-                <div id="player-info">
-                    <p id="current-radio"></p>
-                </div>
                 <div id="player-controls">
                     <button id="play-pause" class="player-button"><i class="fas fa-play"></i></button>
                     <button id="stop" class="player-button"><i class="fas fa-stop"></i></button>
@@ -33,15 +30,17 @@
     <footer>
         <p>&copy; 2024 MixStation. Todos os direitos reservados.</p>
     </footer>
+
+    <div id="control-menu">
+        <button id="volume-up" class="control-button"><i class="fas fa-volume-up"></i></button>
+        <button id="volume-down" class="control-button"><i class="fas fa-volume-down"></i></button>
+        <button id="pause" class="control-button"><i class="fas fa-pause"></i></button>
+        <button id="stop-control" class="control-button"><i class="fas fa-stop"></i></button> <!-- Atualizado para stop-control -->
+    </div>
+
+    <div id="volume-popup"></div> <!-- Adicionado popup de volume -->
+
     <script src="stations.js"></script>
     <script src="app.js"></script>
-
-<div id="control-menu">
-    <button id="volume-up" class="control-button"><i class="fas fa-volume-up"></i></button>
-    <button id="volume-down" class="control-button"><i class="fas fa-volume-down"></i></button>
-    <button id="pause" class="control-button"><i class="fas fa-pause"></i></button>
-    <button id="stop" class="control-button"><i class="fas fa-stop"></i></button>
-</div>
-
 </body>
 </html>

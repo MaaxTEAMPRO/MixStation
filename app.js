@@ -74,27 +74,41 @@ document.getElementById('page-header').addEventListener('click', () => {
     });
 });
 
+// Função para exibir popup de volume
+function showVolumePopup(volume) {
+    const volumePopup = document.getElementById('volume-popup');
+    volumePopup.textContent = `Volume: ${Math.round(volume * 100)}%`;
+    volumePopup.style.display = 'block';
+    volumePopup.style.opacity = '1';
+
+    setTimeout(() => {
+        volumePopup.style.opacity = '0';
+        setTimeout(() => {
+            volumePopup.style.display = 'none';
+        }, 500);
+    }, 1000);
+}
+
 // Inicialização do script quando o DOM estiver carregado
 document.addEventListener('DOMContentLoaded', () => {
     renderStations(stations);
     document.getElementById('search-bar').addEventListener('input', searchStations);
     setupPlayerControls();
-});
-
-
-document.addEventListener('DOMContentLoaded', () => {
+    
     const player = document.getElementById('player');
     const volumeUpButton = document.getElementById('volume-up');
     const volumeDownButton = document.getElementById('volume-down');
     const pauseButton = document.getElementById('pause');
-    const stopButton = document.getElementById('stop');
+    const stopControlButton = document.getElementById('stop-control'); // Atualizado para stop-control
 
     volumeUpButton.addEventListener('click', () => {
         player.volume = Math.min(player.volume + 0.1, 1);
+        showVolumePopup(player.volume);
     });
 
     volumeDownButton.addEventListener('click', () => {
         player.volume = Math.max(player.volume - 0.1, 0);
+        showVolumePopup(player.volume);
     });
 
     pauseButton.addEventListener('click', () => {
@@ -107,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    stopButton.addEventListener('click', () => {
+    stopControlButton.addEventListener('click', () => {
         player.pause();
         player.currentTime = 0;
         pauseButton.innerHTML = '<i class="fas fa-play"></i>';
