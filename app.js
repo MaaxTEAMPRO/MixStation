@@ -1,6 +1,3 @@
-// Importar o pacote
-import { Analytics } from '@vercel/analytics';
-
 // Função para renderizar as estações no DOM
 function renderStations(stations) {
     const stationsList = document.getElementById('stations');
@@ -129,7 +126,4 @@ document.addEventListener('DOMContentLoaded', () => {
         player.currentTime = 0;
         pauseButton.innerHTML = '<i class="fas fa-play"></i>';
     });
-
-    // Inicializar o Analytics
-    Analytics();
 });
