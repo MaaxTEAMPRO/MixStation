@@ -75,12 +75,4 @@ Contribuições são bem-vindas! Se você tem ideias para melhorias ou encontrou
     ```
 5. Abra um pull request
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## Contato
-
-Para mais informações ou questões, entre em contato pelo e-mail: seu-email@example.com
-
 ---
