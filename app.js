@@ -18,7 +18,7 @@ function renderStations(stations) {
     });
 }
 
-// Função para tocar a estação selecionada
+// Função para tocar a estação selecionada e atualizar o título da aba
 function playStation(station) {
     const player = document.getElementById('player');
     player.src = station.url;
@@ -26,6 +26,9 @@ function playStation(station) {
 
     const currentRadio = document.getElementById('current-radio');
     currentRadio.textContent = station.name;
+
+    // Atualizar o título da aba com o nome da estação
+    document.title = station.name;
 }
 
 // Função para pesquisar estações
