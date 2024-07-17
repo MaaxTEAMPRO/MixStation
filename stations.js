@@ -1,6 +1,7 @@
 const stations = [
     { name: 'Antenne Bayern - Oldies but Goldies', url: 'http://stream.antenne.de/oldies-but-goldies/stream/aacp', icon: 'icons/Antenne_Bayern_Oldies_but_Goldies.webp' },
     { name: 'Hunter FM - 80s Retro', url: 'https://live.hunter.fm/80s_high', icon: 'icons/Hunter_FM_80s_Retro.jpg' },
+    { name: 'Love Radio - Timeless Songs', url: 'https://stream.btsstream.com:8092/loveradio.aac', icon:'icons/Love_Radio_Timeless_Songs.png'},
     { name: 'Hunter FM Pop', url: 'https://live.hunter.fm/pop_high', icon: 'icons/Hunter_FM_Pop.jpg' },
     { name: 'Hunter - Moda Sertaneja', url: 'https://live.hunter.fm/modasertaneja_high', icon: 'icons/Hunter_Moda_Sertaneja.jpg' },
     { name: 'Hunter FM - Sertanejo', url: 'https://live.hunter.fm/sertanejo_high', icon: 'icons/Hunter_FM_Sertanejo.jpg' },
